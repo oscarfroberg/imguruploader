@@ -1,14 +1,15 @@
 {
-  "name": "Imgur Uploader",
-  "version": "0.11",
-  "description": "Easily upload images to Imgur through a right-click menu.",
-  "background_page": "background.html",
-  "permissions": [
-    "contextMenus","tabs"
-  ],
-  "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png"
-  },
-  "minimum_chrome_version": "6"
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Easily transload images to Imgur through a right-click menu.",
+   "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "Imgur Uploader",
+   "permissions": [ "contextMenus", "tabs" ],
+   "version": "0.12"
 }
